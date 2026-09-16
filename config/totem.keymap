@@ -116,7 +116,7 @@
             >;
         };
 
-        extra4 { status = "reserved"; };
+        extra7 { status = "reserved"; };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
