@@ -21,32 +21,32 @@
 
         ComboLshift {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <13 24>;
+            key-positions = <13 3>;
         };
 
         ComboLctrl {
             bindings = <&kp LEFT_CONTROL>;
-            key-positions = <12 23>;
+            key-positions = <12 2>;
         };
 
         CmbLalt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <11 22>;
+            key-positions = <11 1>;
         };
 
         CmbRshift {
             bindings = <&kp RIGHT_SHIFT>;
-            key-positions = <16 27>;
+            key-positions = <16 6>;
         };
 
         CmbRctrl {
             bindings = <&kp RIGHT_CONTROL>;
-            key-positions = <17 28>;
+            key-positions = <17 7>;
         };
 
         CmbRalt {
             bindings = <&kp RIGHT_ALT>;
-            key-positions = <18 29>;
+            key-positions = <18 8>;
         };
     };
 
@@ -64,10 +64,10 @@
 
         nav_num {
             bindings = <
-           &msc SCRL_UP    &mkp MB1        &mmv MOVE_UP    &mkp MB2         &kp HOME         &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK
-           &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PAGE_DOWN    &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp GRAVE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none            &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp FSLH      &kp KP_PLUS
-                                           &trans          &trans           &trans           &none  &kp NUMBER_0  &kp PERIOD
+           &msc SCRL_UP    &mkp MB1        &mmv MOVE_UP    &mkp MB2         &kp HOME         &kp BACKSLASH  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK
+           &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PAGE_DOWN    &kp EQUAL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&kp GRAVE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none            &none          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp FSLH      &kp KP_PLUS
+                                           &trans          &trans           &trans           &none          &kp NUMBER_0  &kp PERIOD
             >;
         };
 
